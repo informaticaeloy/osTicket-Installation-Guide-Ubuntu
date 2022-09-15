@@ -123,12 +123,21 @@ Salimos con exit:
 exit
 ```
 
-Y probamos de nuevo el comando:
+Y probamos de nuevo el comando y seguimos el asistente:
 
 ```shell
 sudo mysql_secure_installation
 ```
 
+![image](https://user-images.githubusercontent.com/20743678/190384498-6d7eaec6-cec5-4b84-8c30-7b9ea87c0510.png)
+
+Probamos si MySQL funciona:
+
+```shell
+systemctl status mysql.service
+```
+
+![image](https://user-images.githubusercontent.com/20743678/190384728-a043ed3b-e1ab-4614-a8a2-96c50c9c8618.png)
 
 
 
