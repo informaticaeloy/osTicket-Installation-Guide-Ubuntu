@@ -51,3 +51,13 @@ php -v
 
 ![image](https://user-images.githubusercontent.com/20743678/190368901-e0382902-a13d-4cd1-b787-579ea2a61183.png)
 
+#### 2.1 INSTALACIÓN DE LA EXTENSIÓN MYSQLI PARA PHP 8
+
+```shell
+sudo apt install php8.0-mysqli 
+```
+
+![image](https://user-images.githubusercontent.com/20743678/190369709-a8a97c4f-1566-4406-b1f3-9002e1756e64.png)
+
+
+
