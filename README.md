@@ -59,5 +59,19 @@ sudo apt install php8.0-mysqli
 
 ![image](https://user-images.githubusercontent.com/20743678/190369709-a8a97c4f-1566-4406-b1f3-9002e1756e64.png)
 
+Para comprobar que funciona, creamos un fichero en /var/www/html llamado info.php por ejemplo
+
+```shell
+nano /var/www/html/info.php
+```
+
+y escribimos estas líneas:
+
+> <?php
+ 
+phpinfo();
+ 
+?>
+![image](https://user-images.githubusercontent.com/20743678/190370162-be39a198-143b-4dce-9141-5c5c39810069.png)
 
 
