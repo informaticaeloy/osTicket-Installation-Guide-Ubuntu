@@ -153,9 +153,20 @@ Seleccionamos la versión deseada, en este caso
 
 <kbd> ![image](https://user-images.githubusercontent.com/20743678/190385174-e442b726-d21a-4b0e-91dd-bac8e29071b8.png) </kbd>
 
+Podemos añadir los paquetes de idiomas que deseemos:
 
 <kbd>![image](https://user-images.githubusercontent.com/20743678/190387299-3073b3fd-5a0a-4459-a70b-636a71235819.png)</kbd>
 
+Podemos añadir los plugins que queramos:
+
 <kbd>![image](https://user-images.githubusercontent.com/20743678/190387369-244be5d6-7fa4-431d-b3a7-a24812f77573.png)</kbd>
 
+Y comeinza la descarga del fichero:
+
 <kbd>![image](https://user-images.githubusercontent.com/20743678/190387504-0bedf993-52c4-4373-a2e7-36666a559f74.png)</kbd>
+
+Abrimos el fichero con nuestro software de compresión y vemos que hay varios ficheros .phar que son los paquetes de idiomas y los plugins. Hemos de abrir el fichero osTicket-v1.17-rc4.zip y descomprimir el contenido de la carpeta upload en /var/html
+
+![image](https://user-images.githubusercontent.com/20743678/190391439-01dfea57-f11b-405f-93b7-a6da290adee2.png)
+
+![image](https://user-images.githubusercontent.com/20743678/190391560-72652fd2-b35f-4a98-842a-449454fdcb59.png)
