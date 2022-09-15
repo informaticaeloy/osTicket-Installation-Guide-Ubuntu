@@ -103,6 +103,32 @@ sudo mysql_secure_installation
 
 ![image](https://user-images.githubusercontent.com/20743678/190381413-b33bebe1-d0a4-474a-97ac-a24967ba3693.png)
 
+Si nos aparece este error:
+
 ![image](https://user-images.githubusercontent.com/20743678/190382549-7923d3a9-928b-4ba9-ac7b-1f673b9f3916.png)
+
+```shell
+mysql
+```
+
+```shell
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password by 'mynewpassword';
+```
+
+![image](https://user-images.githubusercontent.com/20743678/190383805-69981a35-ec36-4a59-97b9-06e54cfcea03.png)
+
+Salimos con exit:
+
+```shell
+exit
+```
+
+Y probamos de nuevo el comando:
+
+```shell
+sudo mysql_secure_installation
+```
+
+
 
 
