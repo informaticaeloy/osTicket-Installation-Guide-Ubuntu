@@ -151,7 +151,7 @@ Seleccionamos la versión deseada, en este caso
 
 > osTicket Core, v1.17-rc4 - Released September 12, 2022 
 
-![image](https://user-images.githubusercontent.com/20743678/190385174-e442b726-d21a-4b0e-91dd-bac8e29071b8.png)
+<kbd> ![image](https://user-images.githubusercontent.com/20743678/190385174-e442b726-d21a-4b0e-91dd-bac8e29071b8.png) </kbd>
 
 
 
