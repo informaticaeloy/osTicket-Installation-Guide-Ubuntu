@@ -67,7 +67,7 @@ nano /var/www/html/info.php
 
 y escribimos estas líneas:
 
-> ```shell
+ ```shell
 <?php
 phpinfo();
 ?>
