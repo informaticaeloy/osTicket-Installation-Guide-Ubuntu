@@ -75,4 +75,22 @@ phpinfo();
 
 ![image](https://user-images.githubusercontent.com/20743678/190370162-be39a198-143b-4dce-9141-5c5c39810069.png)
 
+Desde nuestro navegador, visitamos la URL de nuestro servidor Apache y añadimos el nombre del fichero que hemos creado:
+
+```shell
+http://192.168.46.214/info.php
+```
+
+Si todo está correcto hasta ahora, veremos algo similar a esto:
+
+![image](https://user-images.githubusercontent.com/20743678/190371854-5b08c8a9-bea8-4078-a629-b43c2156a28b.png)
+
+##### Warning -> Crea un Snapshot
+
+### 3. INSTALACIÓN DE MYSQL DATABASE
+
+```shell
+apt install mysql
+```
+
 
