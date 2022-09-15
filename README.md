@@ -139,5 +139,20 @@ systemctl status mysql.service
 
 ![image](https://user-images.githubusercontent.com/20743678/190384728-a043ed3b-e1ab-4614-a8a2-96c50c9c8618.png)
 
+#### Warning - :skull: Haz un Snapshot :eyes:
+
+### 4. DESCARGA E INSTALACIÓN DE OSTICKET
+
+Accedemos a la web de descarga de osTicket:
+
+(https://osticket.com/download)
+
+Seleccionamos la versión deseada, en este caso
+
+> osTicket Core, v1.17-rc4 - Released September 12, 2022 
+
+![image](https://user-images.githubusercontent.com/20743678/190385174-e442b726-d21a-4b0e-91dd-bac8e29071b8.png)
+
+
 
 
