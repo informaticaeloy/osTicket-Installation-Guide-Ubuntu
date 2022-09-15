@@ -90,7 +90,19 @@ Si todo está correcto hasta ahora, veremos algo similar a esto:
 ### 3. INSTALACIÓN DE MYSQL DATABASE
 
 ```shell
-apt install mysql
+sudo apt install mysql-server
 ```
+
+![image](https://user-images.githubusercontent.com/20743678/190381304-84dea3a9-69d8-4e68-8cda-6aca37be3508.png)
+
+#### 3.1 CONFIGURACIÓN DE MYSQL
+
+```shell
+sudo mysql_secure_installation
+```
+
+![image](https://user-images.githubusercontent.com/20743678/190381413-b33bebe1-d0a4-474a-97ac-a24967ba3693.png)
+
+![image](https://user-images.githubusercontent.com/20743678/190382549-7923d3a9-928b-4ba9-ac7b-1f673b9f3916.png)
 
 
