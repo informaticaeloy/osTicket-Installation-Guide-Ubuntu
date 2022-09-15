@@ -68,8 +68,8 @@ nano /var/www/html/info.php
 y escribimos estas líneas:
 
 > <?php
-> phpinfo();
-> ?>
+ phpinfo();
+ ?>
 
 ![image](https://user-images.githubusercontent.com/20743678/190370162-be39a198-143b-4dce-9141-5c5c39810069.png)
 
