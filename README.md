@@ -197,5 +197,31 @@ Editamos el fichero /etc/php/8.0/apache2/php.ini y sobre la línea 935 aproximan
 
 > extension=mysqli
 
-<kbd>![image](https://user-images.githubusercontent.com/20743678/190393893-9da55f04-fba4-46fe-80ab-2aecbcc1c5b1.png)</kbd>
+<kbd>![image](https://user-images.githubusercontent.com/20743678/190394546-c57d11e8-be59-43ca-824f-feee0387171a.png)</kbd>
+
+Reiniciamos el servicio apache con:
+
+```shell
+systemctl restart apache2
+```
+
+y comprobamos si arranca con :
+
+```shell
+systemctl status apache2
+```
+
+<kbd>![image](https://user-images.githubusercontent.com/20743678/190394891-a1e292b0-6770-4c60-a3c5-ff60acccd221.png)</kbd>
+
+Actualizamos nuestro navegador y comprobamos si se ha solucionado. Para asegurarnos, cerramos el navegador y recargamos la página en modo incógnito para borrar caché:
+
+<kbd>![image](https://user-images.githubusercontent.com/20743678/190395250-dcdc1273-a604-481a-bf6e-bcc1d0b455df.png)</kbd>
+
+Vemos que los requisitos requeridos ya están OK, pero los recomendados no. Podemos continuar sin ellos, pero hacer esto no me deja dormir por las noches, así que antes de que muera algún gatito vamos a solucionarlo.
+
+#### Warning - :skull: Haz un Snapshot :eyes:
+
+Volvemos a editar el fichero /etc/php/8.0/apache2/php.ini y vamos descomentando las extensiones que tenemos en fallo:
+
+
 
