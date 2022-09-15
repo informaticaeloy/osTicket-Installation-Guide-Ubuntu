@@ -167,6 +167,35 @@ Y comeinza la descarga del fichero:
 
 Abrimos el fichero con nuestro software de compresión y vemos que hay varios ficheros .phar que son los paquetes de idiomas y los plugins. Hemos de abrir el fichero osTicket-v1.17-rc4.zip y descomprimir el contenido de la carpeta upload en /var/html
 
-![image](https://user-images.githubusercontent.com/20743678/190391439-01dfea57-f11b-405f-93b7-a6da290adee2.png)
+<kbd>![image](https://user-images.githubusercontent.com/20743678/190391439-01dfea57-f11b-405f-93b7-a6da290adee2.png)</kbd>
 
-![image](https://user-images.githubusercontent.com/20743678/190391560-72652fd2-b35f-4a98-842a-449454fdcb59.png)
+<kbd>![image](https://user-images.githubusercontent.com/20743678/190391560-72652fd2-b35f-4a98-842a-449454fdcb59.png)</kbd>
+
+Si no nos deja hacerlo directamente por permisos, creamos una carpeta en el escritorio, por ejemplo, descomprimimos en ella y luego desde el terminal copiamos con el comando:
+
+```shell
+sudo cp /home/usuario/Escritorio/upload/* /var/www/html/ -r
+```
+
+<kbd>![image](https://user-images.githubusercontent.com/20743678/190392617-efc737d7-b92f-4e0c-b02b-279a3357bb80.png)</kbd>
+
+Y obtendremnos el siguiente resultado:
+
+<kbd>![image](https://user-images.githubusercontent.com/20743678/190392752-20389d7c-8dd8-4d0a-a936-25cd43743232.png)</kbd>
+
+Ahora podemos acceder a la URL de nuestro servidor y en la carpeta "setup", tendremos el instalador, que nos protestará de todos los errores que hemos de solucionar:
+
+```shell
+http://192.168.46.214/setup/
+```
+
+<kbd>![image](https://user-images.githubusercontent.com/20743678/190393090-cc78e389-330c-45d4-bde8-1a6c02bf57eb.png)</kbd>
+
+En mi caso falta de activar la extensión MySQLi para PHP.
+
+Editamos el fichero /etc/php/8.0/apache2/php.ini y sobre la línea 935 aproximan¡damente, descomentamos la que dice:
+
+> extension=mysqli
+
+<kbd>![image](https://user-images.githubusercontent.com/20743678/190393893-9da55f04-fba4-46fe-80ab-2aecbcc1c5b1.png)</kbd>
+
