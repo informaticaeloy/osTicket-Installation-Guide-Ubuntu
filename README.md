@@ -14,3 +14,40 @@ apt-get install apache2
 ```
 
 ![image](https://user-images.githubusercontent.com/20743678/190367570-093d6ac2-c0b4-4a21-b824-cae5bb0f524e.png)
+
+En un navegador, accedemos a la URL de nuestro máquina virtual y comprobamos si funciona:
+
+![image](https://user-images.githubusercontent.com/20743678/190367841-1938c201-9728-45b7-85e6-ec12a9243a86.png)
+
+### 2. INSTALACIÓN DE PHP 8
+
+```shell
+sudo apt install ca-certificates apt-transport-https software-properties-common
+```
+
+![image](https://user-images.githubusercontent.com/20743678/190368199-ff183676-8553-48b7-a5f1-d292dcc2c886.png)
+
+```shell
+sudo add-apt-repository ppa:ondrej/php
+```
+
+![image](https://user-images.githubusercontent.com/20743678/190368451-23265c03-e5ef-4f68-b0bf-31f9cd753b5d.png)
+
+
+```shell
+sudo apt install php8.0 libapache2-mod-php8.0
+```
+
+![image](https://user-images.githubusercontent.com/20743678/190368692-aac9c322-5e4f-49cc-8958-a81dd3dacc53.png)
+
+
+```shell
+sudo systemctl restart apache2
+```
+
+```shell
+php -v
+```
+
+![image](https://user-images.githubusercontent.com/20743678/190368901-e0382902-a13d-4cd1-b787-579ea2a61183.png)
+
