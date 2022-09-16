@@ -303,4 +303,30 @@ Una vez terminado el proceso de instalación, no ofrece unas tareas a realizar p
 
 <kbd>![image](https://user-images.githubusercontent.com/20743678/190597734-60659f83-1f97-4951-a51a-a3eafbbd61c7.png)</kbd>
 
+Así pues, en la ruta:
+
+> /var/www/html/include
+
+Ejecutamos el siguiente comando:
+
+```shell
+chmod 0644 ost-config.php 
+```
+
+y comprobamos los permisos 
+
+```shell
+ls -la ost-config.php 
+```
+
+<kbd>![image](https://user-images.githubusercontent.com/20743678/190598373-bf778159-cb64-4b92-9cac-d12764098282.png)</kbd>
+
+Accedemos desde un navegador a la URL de nuestro servidor y ya tenemos accedo al panel de control. No muestra un aviso de seguridad, que nos recomienda borrar la carpeta "setup". La borramos y ya tendríamos todo instalado y listo para trabajar con osTicket.
+
+<kbd>![image](https://user-images.githubusercontent.com/20743678/190599015-d087fc3f-cfe1-4a17-945b-3c5681d9e1cc.png)</kbd>
+
+```shell
+rm -r setup
+```
+
 
