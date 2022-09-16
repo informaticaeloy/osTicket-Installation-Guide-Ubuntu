@@ -247,13 +247,13 @@ sudo apt install php8.0-intl
 sudo apt install php8.0-apcu
 ```
 
-![image](https://user-images.githubusercontent.com/20743678/190579288-91438029-f793-48cc-8e9f-af0f2e466a89.png)
+<kbd>![image](https://user-images.githubusercontent.com/20743678/190579288-91438029-f793-48cc-8e9f-af0f2e466a89.png)</kbd>
 
 Bien, esto pinta bien :muscle:
 
 Siguente ventana de error:
 
-![image](https://user-images.githubusercontent.com/20743678/190580078-151e7f4e-d92a-4218-a3b0-3feee8c783ac.png)
+<kbd>![image](https://user-images.githubusercontent.com/20743678/190580078-151e7f4e-d92a-4218-a3b0-3feee8c783ac.png)</kbd>
 
 En la ruta /var/www/html/include copiamos el fichero ost-sampleconfig.php en uno nuevo llamado ost-config.php
 
@@ -281,7 +281,23 @@ Y nos muestra algo parecido a esto:
 
 Y podemos continuar con la instalación:
 
-![image](https://user-images.githubusercontent.com/20743678/190581185-f2be51b7-cd4b-42d8-8f15-307b3c8300d5.png)
+<kbd>![image](https://user-images.githubusercontent.com/20743678/190581185-f2be51b7-cd4b-42d8-8f15-307b3c8300d5.png)</kbd>
 
 #### Warning - :skull: Haz un Snapshot :eyes:
+
+En esta ventana inicial no nos deja seleccionar otro idioma distinto al inglés. Para ñadir el español y francés que hemos descargado antes, descomprimimos los ficheros es_EN.phar y fr.phar en la ruta siguiente:
+
+> /var/www/html/include/i18n
+
+Debería quedarnos algo así:
+
+<kbd>![image](https://user-images.githubusercontent.com/20743678/190591585-0edd5817-4ecb-43e6-a88e-a1ddb36ccee3.png)</kbd>
+
+Ahora, refrescamos la ventana del navegador y ya nos deja seleccionar el español:
+
+<kbd>![image](https://user-images.githubusercontent.com/20743678/190592913-e783082b-0826-4949-b27b-3b0b015f14da.png)</kbd>
+
+<kbd>![image](https://user-images.githubusercontent.com/20743678/190597174-560239e0-25a3-4c88-a215-397fe693732f.png)</kbd>
+
+
 
