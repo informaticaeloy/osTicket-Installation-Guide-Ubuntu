@@ -299,5 +299,8 @@ Ahora, refrescamos la ventana del navegador y ya nos deja seleccionar el españo
 
 <kbd>![image](https://user-images.githubusercontent.com/20743678/190597174-560239e0-25a3-4c88-a215-397fe693732f.png)</kbd>
 
+Una vez terminado el proceso de instalación, no ofrece unas tareas a realizar para incrementar la seguridad y los enlaces a la herramienta:
+
+<kbd>![image](https://user-images.githubusercontent.com/20743678/190597734-60659f83-1f97-4951-a51a-a3eafbbd61c7.png)</kbd>
 
 
