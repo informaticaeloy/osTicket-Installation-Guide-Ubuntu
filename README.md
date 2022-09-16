@@ -276,7 +276,12 @@ ls -la ost-config.php
 Y nos muestra algo parecido a esto:
 
 > root@ubuntu:/var/www/html/include# ls -la ost-config.php 
+> 
 > -rw-rw-rw- 1 root root 5753 sep 16 09:21 ost-config.php
 
+Y podemos continuar con la instalación:
 
+![image](https://user-images.githubusercontent.com/20743678/190581185-f2be51b7-cd4b-42d8-8f15-307b3c8300d5.png)
+
+#### Warning - :skull: Haz un Snapshot :eyes:
 
