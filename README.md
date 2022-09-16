@@ -251,5 +251,32 @@ sudo apt install php8.0-apcu
 
 Bien, esto pinta bien :muscle:
 
+Siguente ventana de error:
+
+![image](https://user-images.githubusercontent.com/20743678/190580078-151e7f4e-d92a-4218-a3b0-3feee8c783ac.png)
+
+En la ruta /var/www/html/include copiamos el fichero ost-sampleconfig.php en uno nuevo llamado ost-config.php
+
+```shell
+cp ost-sampleconfig.php ost-config.php
+```
+
+Le asignamos los permisos necesarios:
+
+```shell
+chmod 0666 ost-config.php
+```
+
+Los comprobamos:
+
+```shell
+ls -la ost-config.php 
+```
+
+Y nos muestra algo parecido a esto:
+
+> root@ubuntu:/var/www/html/include# ls -la ost-config.php 
+> -rw-rw-rw- 1 root root 5753 sep 16 09:21 ost-config.php
+
 
 
