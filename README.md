@@ -223,5 +223,33 @@ Vemos que los requisitos requeridos ya están OK, pero los recomendados no. Pode
 
 Volvemos a editar el fichero /etc/php/8.0/apache2/php.ini y vamos descomentando las extensiones que tenemos en fallo:
 
+<kbd>![image](https://user-images.githubusercontent.com/20743678/190577859-afe778a4-257d-4827-a4b3-d31da7656538.png)</kbd>
+
+Luego vamos instalando las extensiones:
+
+```shell
+sudo apt install php8.0-gd
+```
+
+```shell
+sudo apt install php8.0-imap
+```
+
+```shell
+sudo apt install php8.0-mbstring
+```
+
+```shell
+sudo apt install php8.0-intl
+```
+
+```shell
+sudo apt install php8.0-apcu
+```
+
+![image](https://user-images.githubusercontent.com/20743678/190579288-91438029-f793-48cc-8e9f-af0f2e466a89.png)
+
+Bien, esto pinta bien :muscle:
+
 
 
