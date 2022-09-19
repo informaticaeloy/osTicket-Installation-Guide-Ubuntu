@@ -1,6 +1,18 @@
 # osTicket-Installation-Guide-Ubuntu
 Guía de instalación de osTicket Core, v1.17-rc4 en Ubuntu 22.04
 
+### 0.666 CONCLUSIONES FINALES
+
+Antes de que llegues al final del proceso de instalación, te comento aquí arriba mis impresiones trabajando con osTicket:
+
+Es muy sencillo de instalar y de configurar para una primera toma de contacto. Es intuitivo y completo, ágil y completo, pero necesitaba poder integrarle un inventario de equipos que asociar a los tickets, algo así como este plugin:
+
+(https://github.com/flotwig/osTicket-Equipment)
+
+Este plugin y otros similares que he probado no son compatibles con la versión 1.17-rc4, por lo que una vez instalados y activados el software deja de funcionar. Al ser proyectos discontinuados desde 2014, no invierto más tiempo en pulir, por lo que opto a buscar alternativas como GLPI.
+
+Si necesitas un sistema de tickets completo y ágil pero sin inventario de hardware y software, osTicket es una muy buena opción. A partir de aquí, prueba a instalarlo y saca tus propias conclusiones.
+
 ### 0.  PRERREQUISITOS
 
 To install osTicket, your web server must have PHP 8.0 and MySQL 5.0 (or better) installed. If you are unsure whether your server meets these requirements, please check with your host or webmaster before proceeding with the installation.
