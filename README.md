@@ -337,6 +337,8 @@ Accedemos desde un navegador a la URL de nuestro servidor y ya tenemos accedo al
 
 <kbd>![image](https://user-images.githubusercontent.com/20743678/190599015-d087fc3f-cfe1-4a17-945b-3c5681d9e1cc.png)</kbd>
 
+Es importante borrar la carpeta setup para evitar tener una brecha de seguridad.
+
 ```shell
 rm -r setup
 ```
