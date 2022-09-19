@@ -97,7 +97,7 @@ Si todo está correcto hasta ahora, veremos algo similar a esto:
 
 <kbd>![image](https://user-images.githubusercontent.com/20743678/190371854-5b08c8a9-bea8-4078-a629-b43c2156a28b.png)</kbd>
 
-##### Warning -> Crea un Snapshot
+#### Warning - :skull: Haz un Snapshot :eyes:
 
 ### 3. INSTALACIÓN DE MYSQL DATABASE
 
