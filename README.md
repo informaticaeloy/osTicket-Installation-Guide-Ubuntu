@@ -347,4 +347,21 @@ Es importante borrar la carpeta setup para evitar tener una brecha de seguridad.
 rm -r setup
 ```
 
+### Instalación de plugins
+
+Para instalar los plugins LDAP decargados previamente, copiamos los ficheros que descomprimimos anteriormente, auth-ldap.phar y auth-passthru.phar en la ruta /var/www/html/include/plugins
+
+<kbd>![image](https://user-images.githubusercontent.com/20743678/201649122-75847b3f-4f65-4492-8a1b-15abe4390095.png)</kbd>
+
+Y en el dashboard, en el menú Administrar -> Plugins podremos añadirlos:
+
+<kbd>![image](https://user-images.githubusercontent.com/20743678/201649358-b91108b9-f3e7-4dcf-9097-8b91b7a10a5c.png)</kbd>
+
+Le damos a Instalar:
+
+<kbd>![image](https://user-images.githubusercontent.com/20743678/201649496-b2314045-a1b5-43b3-bfc2-cba40d55d604.png)</kbd>
+
+Y haciendo click sobre su nombre podemos editarlos:
+
+<kbd>![image](https://user-images.githubusercontent.com/20743678/201649613-6d321f60-69db-4584-ac3e-f2ac10b6e5c3.png)</kbd>
 
