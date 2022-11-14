@@ -259,6 +259,10 @@ sudo apt install php8.0-intl
 sudo apt install php8.0-apcu
 ```
 
+```shell
+sudo apt install php8.0-xml
+```
+
 <kbd>![image](https://user-images.githubusercontent.com/20743678/190579288-91438029-f793-48cc-8e9f-af0f2e466a89.png)</kbd>
 
 Bien, esto pinta bien :muscle:
