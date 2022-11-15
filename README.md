@@ -365,3 +365,54 @@ Y haciendo click sobre su nombre podemos editarlos:
 
 <kbd>![image](https://user-images.githubusercontent.com/20743678/201649613-6d321f60-69db-4584-ac3e-f2ac10b6e5c3.png)</kbd>
 
+Rellenamos los campos de configuración con los datos de nuestro dominio:
+
+<kbd>![image](https://user-images.githubusercontent.com/20743678/201892963-6439cdd6-4dc3-43e8-a1d0-1802d8f055ff.png)</kbd>
+
+A partir de este momento, podremos loguearnos con usuarios existentes de nuestro AD. Para confirmar que nos está haciendo la lectura correcta, podemos usar el comando ldapsearch en ubuntu:
+
+```shell
+ldapsearch -x -b "DC=dom,DC=local" -H ldap://192.168.1.10 -W -D "user_con_permisos_de_lectura_del_AD@dom.local"
+```
+
+<kbd>![image](https://user-images.githubusercontent.com/20743678/201894302-21fef98d-3208-4847-8ac2-23d66f87b628.png)</kbd>
+
+El siguiente paso para personalizar nuestro sistema, es traducir los nombres de las prioridades. Para hacerlo, hay que ir a la consola de comandos y utilizar MySql, ya que no hay ninguna opción desde el frontend.
+
+```shell
+mysql -p
+```
+
+```shell
+use osticket;
+```
+
+```shell
+select priority_id, priority, priority_desc from ost_ticket_priority;
+```
+
+```shell
+update ost_ticket_priority set priority_desc = "Emergencia" where priority_id = 4;
+```
+
+```shell
+update ost_ticket_priority set priority_desc = "Alta" where priority_id = 3;
+```
+
+```shell
+update ost_ticket_priority set priority_desc = "Media" where priority_id = 2;
+```
+
+```shell
+update ost_ticket_priority set priority_desc = "Baja" where priority_id = 1;
+```
+
+```shell
+select priority_id, priority, priority_desc from ost_ticket_priority;
+```
+
+```shell
+exit
+```
+
+<kbd>![image](https://user-images.githubusercontent.com/20743678/201896292-60951c83-4374-4078-93c5-672fe59b37ad.png)</kbd>
