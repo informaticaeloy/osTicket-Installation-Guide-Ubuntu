@@ -418,3 +418,7 @@ exit
 <kbd>![image](https://user-images.githubusercontent.com/20743678/201896292-60951c83-4374-4078-93c5-672fe59b37ad.png)</kbd>
 
 <kbd>![image](https://user-images.githubusercontent.com/20743678/201896611-f9eca885-1e6d-4a30-91d2-0647a223fea4.png)</kbd>
+
+Ahora ya lo tenemos con la nomenclatura que hayamos definido:
+
+<kbd>![image](https://user-images.githubusercontent.com/20743678/201897276-f9d79bb2-2190-4579-8d45-c6ace2ef9157.png)</kbd>
